@@ -190,3 +190,8 @@ function saveMessage(text, sender) {
     localStorage.setItem('chatMessages', JSON.stringify(messages));
 }
 
+
+function emp(){
+    window.location.href="empty.html";
+}
+
